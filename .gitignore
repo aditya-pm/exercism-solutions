@@ -1,0 +1,104 @@
+# ==========================================
+# OS files
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Visual Studio / VS Code / JetBrains
+# ==========================================
+
+.vs/
+.vscode/
+.idea/
+
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Rider
+*.DotSettings.user
+
+# ==========================================
+# C# / .NET
+# ==========================================
+
+bin/
+obj/
+
+# Test results
+TestResults/
+
+# NuGet
+packages/
+
+# ==========================================
+# Python
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.venv/
+venv/
+env/
+
+.pytest_cache/
+.mypy_cache/
+
+# ==========================================
+# C / C++
+# ==========================================
+
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+
+# CMake
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+
+# ==========================================
+# Java
+# ==========================================
+
+*.class
+*.jar
+*.war
+*.ear
+
+.gradle/
+build/
+out/
+
+# ==========================================
+# JavaScript / TypeScript
+# ==========================================
+
+node_modules/
+
+dist/
+coverage/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# Misc
+# ==========================================
+
+*.log
